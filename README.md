@@ -2,7 +2,7 @@
 random findings about extensions create and debugging
 
 
-##lg
+## lg
 get access to your extension settings with convenience
 
     settings=imports.misc.extensionUtils.extensions[Object.keys(imports.misc.extensionUtils.extensions).filter(e=>e.match('^run-or-raise'))[0]].imports.convenience.getSettings()
